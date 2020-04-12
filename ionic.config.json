@@ -1,0 +1,7 @@
+{
+  "name": "covid19sa-frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
