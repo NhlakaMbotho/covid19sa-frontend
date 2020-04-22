@@ -1,1 +1,6 @@
+<mat-toolbar color="primary">
+  <span style="flex: 1 1 auto;"></span>
+  <a *ngIf="authenticated" mat-button routerLink="/" routerLinkActive="active">logout</a>
+  <a mat-button routerLink="/admin" routerLinkActive="active">admin</a>
+</mat-toolbar>
 <router-outlet></router-outlet>
